@@ -343,7 +343,7 @@ export {
 # leanpub-end-insert
 ~~~~~~~~
 
-In your *App.test.js* file, you will find a first test that came with *create-react-app*. It verifies that the App component would render without any errors.
+In your *App.test.js* file, you will find a first test that came with *create-react-app*. It verifies that the App component would render without any errors. Note that the `it` function in Jest is an alias for the `test` function.
 
 {title="src/App.test.js",lang=javascript}
 ~~~~~~~~
